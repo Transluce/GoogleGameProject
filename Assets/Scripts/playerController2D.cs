@@ -18,6 +18,6 @@ public class playerController2D : MonoBehaviour {
          Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical")) *moveForce;
         bool isRunning = CrossPlatformInputManager.GetButton("run");
         //Debug.Log(isRunning ? runMultiplier : 1);
-        playerBody.AddForce(moveVec * (isRunning ? runMultiplier : 1));
+        playerBody.transform.Translate(moveVec * (isRunning ? runMultiplier : 1));
     }
 }

@@ -1,14 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleGameProject", "Assembly-CSharp-firstpass.csproj", "{14247969-9746-78B9-777B-392913A2D888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleGameProject", "Assembly-CSharp.csproj", "{C823E779-335D-3B0D-EE67-01EE431A0386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleGameProject", "Assembly-CSharp-Editor-firstpass.csproj", "{135A4273-FDA0-E7F1-57E6-7E846DEE8148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{14247969-9746-78B9-777B-392913A2D888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14247969-9746-78B9-777B-392913A2D888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14247969-9746-78B9-777B-392913A2D888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14247969-9746-78B9-777B-392913A2D888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C823E779-335D-3B0D-EE67-01EE431A0386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C823E779-335D-3B0D-EE67-01EE431A0386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C823E779-335D-3B0D-EE67-01EE431A0386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C823E779-335D-3B0D-EE67-01EE431A0386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135A4273-FDA0-E7F1-57E6-7E846DEE8148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135A4273-FDA0-E7F1-57E6-7E846DEE8148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135A4273-FDA0-E7F1-57E6-7E846DEE8148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135A4273-FDA0-E7F1-57E6-7E846DEE8148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
