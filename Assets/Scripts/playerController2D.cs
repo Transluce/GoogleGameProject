@@ -7,9 +7,10 @@ public class playerController2D : MonoBehaviour {
 
     public float moveForce = 5, runMultiplier = 2;
     Rigidbody2D playerBody;
-	
+    Animator anim;
 	void Start () {
         playerBody = this.GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 	}
 	
 	
@@ -19,5 +20,17 @@ public class playerController2D : MonoBehaviour {
         bool isRunning = CrossPlatformInputManager.GetButton("run");
         //Debug.Log(isRunning ? runMultiplier : 1);
         playerBody.transform.Translate(moveVec * (isRunning ? runMultiplier : 1));
+        if(moveVec.y>0)
+        {
+            anim.SetInteger("Direction", 1);
+        }
+        else if(moveVec.y==0)
+        {
+            anim.SetInteger("Direction", 0);
+        }
+        else if(moveVec.y<0)
+        {
+            anim.SetInteger("Direction", -1);
+        }
     }
 }
