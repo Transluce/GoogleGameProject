@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\ChangeSceneManager.cs" />
     <Compile Include="Assets\Scripts\DoNotDestroyScript.cs" />
     <Compile Include="Assets\Scripts\Question_Generator.cs" />
+    <Compile Include="Assets\Scripts\UISceneManager.cs" />
     <Compile Include="Assets\Scripts\playerController2D.cs" />
     <Compile Include="Assets\Scripts\playerController_buttons.cs" />
   </ItemGroup>

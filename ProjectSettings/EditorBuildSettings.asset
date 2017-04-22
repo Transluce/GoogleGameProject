@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 47f9758a815da4247acc2a3d6e06dc2b
+  - enabled: 1
     path: Assets/Scenes/GoogleGameV1.unity
     guid: 7ad9515ebb7f1ef4793a4f695109d093
   - enabled: 1
@@ -14,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage3.unity
     guid: 313a35e3bd1ae9942937da9ab96f7555
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 581c3872855ebad4aac34932b2925aa3
