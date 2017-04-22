@@ -5,7 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class playerController2D : MonoBehaviour {
 
-    public float moveForce = 5, runMultiplier = 2;
+    public float moveForce = 0.05f, runMultiplier = 2;
     Rigidbody2D playerBody;
     Animator anim;
 	void Start () {
