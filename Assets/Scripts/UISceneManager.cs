@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
  using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class UISceneManager : MonoBehaviour {
 
     // Use this for initialization
     public string LevelToLoad;
-	void Start () {
-		
-	}
+    
+    void Start () {
+       
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -17,5 +19,9 @@ public class UISceneManager : MonoBehaviour {
     public void LoadThis()
     {
         SceneManager.LoadScene(LevelToLoad);
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

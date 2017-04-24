@@ -11,10 +11,13 @@ public class Player_Stats : MonoBehaviour {
     public Sprite heart;
     public Vector3 currentPos;
     public Scene prevScene;
+    
    
-	void Start () {
+
+    void Start () {
         hp = 5;
         DrawLife();
+       
         //load();
     }
 	
@@ -44,6 +47,8 @@ public class Player_Stats : MonoBehaviour {
         float x = PlayerPrefs.GetFloat("PlayerX");
         float y = PlayerPrefs.GetFloat("PlayerY");
         float z = PlayerPrefs.GetFloat("PlayerZ");
+
+        
         transform.position = new Vector3(x, y, z);
     }
 }

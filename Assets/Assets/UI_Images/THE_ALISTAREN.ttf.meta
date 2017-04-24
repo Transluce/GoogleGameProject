@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 157889f000fc1274699ac9a6410f1b6d
+timeCreated: 1493039359
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: THE ALISTAREN BETA
+  fontNames:
+  - THE ALISTAREN BETA
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

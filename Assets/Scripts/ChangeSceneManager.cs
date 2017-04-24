@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneManager : MonoBehaviour {
 
-
+    public GameObject player;
     public string levelToLoad;
+    public static float playerXpos;
+    public static float playerYpos;
+    public static float playerZpos;
 	// Use this for initialization
 	void Start () {
 		
@@ -22,9 +25,11 @@ public class ChangeSceneManager : MonoBehaviour {
         if(collision.tag =="Player")
         {
 
+
+            PlayerPrefs.SetFloat("PlayerX", transform.position.x);
             //collision.gameObject.GetComponent<Player_Stats>().save();
-           // this.GetComponent<Enemy_stats>().save();
-           // Debug.Log(collision.gameObject.GetComponent<Player_Stats>().currentPos);
+            // this.GetComponent<Enemy_stats>().save();
+            // Debug.Log(collision.gameObject.GetComponent<Player_Stats>().currentPos);
             SceneManager.LoadScene(levelToLoad);
             this.gameObject.AddComponent<DoNotDestroyScript>();
             collision.gameObject.GetComponent<playerController_buttons>().direction = "stop";

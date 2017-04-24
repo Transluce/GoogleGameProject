@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class playerController_buttons : MonoBehaviour {
 
     private float speed = 0.05f;
@@ -10,8 +11,9 @@ public class playerController_buttons : MonoBehaviour {
     private bool moveRight;
     Rigidbody2D playerBody;
     public string direction;
+    public  static int Attack;
    
-    Animator anim;
+    public static Animator  anim;
     SpriteRenderer renderer;
     public Button thisButton;
    
@@ -21,6 +23,7 @@ public class playerController_buttons : MonoBehaviour {
         playerBody = this.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+      
     }
 
     void FixedUpdate()
@@ -81,5 +84,6 @@ public class playerController_buttons : MonoBehaviour {
         anim.SetInteger("Direction", 0);
     }
     
+
 
 }
