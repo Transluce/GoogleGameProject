@@ -21,7 +21,19 @@ public class ChangeSceneManager : MonoBehaviour {
     {
         if(collision.tag =="Player")
         {
+
+            //collision.gameObject.GetComponent<Player_Stats>().save();
+           // this.GetComponent<Enemy_stats>().save();
+           // Debug.Log(collision.gameObject.GetComponent<Player_Stats>().currentPos);
             SceneManager.LoadScene(levelToLoad);
+            this.gameObject.AddComponent<DoNotDestroyScript>();
+            collision.gameObject.GetComponent<playerController_buttons>().direction = "stop";
+            collision.gameObject.GetComponent<playerController_buttons>().noMovement();
+            
+        }
+        if(this.gameObject.name=="Portal")
+        {
+            Destroy(collision.gameObject);
         }
     }
 }

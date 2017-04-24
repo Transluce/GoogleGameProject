@@ -17,6 +17,6 @@ public class DoNotDestroyScript : MonoBehaviour {
 
      void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        DontDestroyOnLoad(transform.root.gameObject);
     }
 }

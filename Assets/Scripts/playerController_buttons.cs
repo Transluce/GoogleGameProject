@@ -12,6 +12,7 @@ public class playerController_buttons : MonoBehaviour {
     public string direction;
    
     Animator anim;
+    SpriteRenderer renderer;
     public Button thisButton;
    
 
@@ -19,6 +20,7 @@ public class playerController_buttons : MonoBehaviour {
     {
         playerBody = this.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
@@ -37,11 +39,15 @@ public class playerController_buttons : MonoBehaviour {
          else if (direction == "right")
          {
              transform.Translate(speed, 0, 0);
-         }
+            anim.SetInteger("Direction", 2);
+            renderer.flipX = true;
+        }
          else if (direction == "left")
          {
              transform.Translate(-speed, 0, 0);
-         }
+            anim.SetInteger("Direction", -2);
+            renderer.flipX = false;
+        }
          else if (direction == "stop")
         {
             transform.Translate(0, 0, 0);
