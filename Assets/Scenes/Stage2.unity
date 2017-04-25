@@ -5079,6 +5079,7 @@ GameObject:
   - component: {fileID: 156758678}
   - component: {fileID: 156758680}
   - component: {fileID: 156758679}
+  - component: {fileID: 156758681}
   m_Layer: 0
   m_Name: EarthFrog
   m_TagString: Enemy
@@ -5149,7 +5150,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene2
+--- !u!50 &156758681
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 156758676}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &159125554
 GameObject:
   m_ObjectHideFlags: 0
@@ -30229,6 +30251,7 @@ GameObject:
   - component: {fileID: 794259149}
   - component: {fileID: 794259151}
   - component: {fileID: 794259150}
+  - component: {fileID: 794259152}
   m_Layer: 0
   m_Name: PoisonFrog
   m_TagString: Enemy
@@ -30299,7 +30322,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene2
+--- !u!50 &794259152
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794259147}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &794661781
 GameObject:
   m_ObjectHideFlags: 0
@@ -52946,6 +52990,7 @@ GameObject:
   - component: {fileID: 1371249616}
   - component: {fileID: 1371249619}
   - component: {fileID: 1371249618}
+  - component: {fileID: 1371249620}
   m_Layer: 0
   m_Name: BlueSquid
   m_TagString: Enemy
@@ -53055,7 +53100,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene2
+--- !u!50 &1371249620
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371249613}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1371281605
 GameObject:
   m_ObjectHideFlags: 0
@@ -61952,6 +62018,7 @@ GameObject:
   - component: {fileID: 1569028160}
   - component: {fileID: 1569028162}
   - component: {fileID: 1569028161}
+  - component: {fileID: 1569028163}
   m_Layer: 0
   m_Name: FriedSquid
   m_TagString: Enemy
@@ -62022,7 +62089,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene2
+--- !u!50 &1569028163
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1569028158}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1570658146
 GameObject:
   m_ObjectHideFlags: 0
@@ -62924,6 +63012,7 @@ GameObject:
   - component: {fileID: 1595704420}
   - component: {fileID: 1595704422}
   - component: {fileID: 1595704421}
+  - component: {fileID: 1595704423}
   m_Layer: 0
   m_Name: TheRock
   m_TagString: Enemy
@@ -62994,7 +63083,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene2
+--- !u!50 &1595704423
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595704418}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1601241614
 GameObject:
   m_ObjectHideFlags: 0

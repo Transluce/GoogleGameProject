@@ -8,7 +8,7 @@ public class BattleManager : MonoBehaviour {
 
     public static string attackTrigger;
     string answer;
-    string moveAttack; // para magalaw ko ung attack Object
+    public string moveAttack; // para magalaw ko ung attack Object
     string Hit; //pang bawas sa buhay ng monster pag tumama ung haduken;
     float firespeed = 0.05f;
     GameObject player;
@@ -69,7 +69,9 @@ public class BattleManager : MonoBehaviour {
                 //Destroy(playerAttack);
                 enemystats.hp--;
                 enemystats.takeDamage("Enemy_life" + enemystats.hp);
-                GameObject.Find("Question").GetComponent<Question_Generator>().putquestion();
+                playerAttack.transform.position = GameObject.Find("fireballpos").transform.position;
+            
+            GameObject.Find("Question").GetComponent<Question_Generator>().putquestion();
                 
             //}
         }

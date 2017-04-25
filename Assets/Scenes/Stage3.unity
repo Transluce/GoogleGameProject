@@ -15845,6 +15845,7 @@ GameObject:
   - component: {fileID: 408203344}
   - component: {fileID: 408203347}
   - component: {fileID: 408203346}
+  - component: {fileID: 408203348}
   m_Layer: 0
   m_Name: RedFire
   m_TagString: Enemy
@@ -15941,6 +15942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &408203347
 MonoBehaviour:
@@ -15955,6 +15957,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &408203348
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 408203342}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &409474213
 GameObject:
   m_ObjectHideFlags: 0
@@ -24540,6 +24562,7 @@ GameObject:
   - component: {fileID: 667885357}
   - component: {fileID: 667885360}
   - component: {fileID: 667885359}
+  - component: {fileID: 667885361}
   m_Layer: 0
   m_Name: RedFire (1)
   m_TagString: Enemy
@@ -24636,6 +24659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &667885360
 MonoBehaviour:
@@ -24650,6 +24674,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &667885361
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667885355}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &671944253
 GameObject:
   m_ObjectHideFlags: 0
@@ -29128,6 +29172,7 @@ GameObject:
   - component: {fileID: 804413217}
   - component: {fileID: 804413220}
   - component: {fileID: 804413219}
+  - component: {fileID: 804413221}
   m_Layer: 0
   m_Name: OrangeFire (1)
   m_TagString: Enemy
@@ -29224,6 +29269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &804413220
 MonoBehaviour:
@@ -29238,6 +29284,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &804413221
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 804413215}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &805769348
 GameObject:
   m_ObjectHideFlags: 0
@@ -32304,6 +32370,7 @@ GameObject:
   - component: {fileID: 904378674}
   - component: {fileID: 904378677}
   - component: {fileID: 904378676}
+  - component: {fileID: 904378678}
   m_Layer: 0
   m_Name: OrangeFire
   m_TagString: Enemy
@@ -32400,6 +32467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &904378677
 MonoBehaviour:
@@ -32414,6 +32482,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &904378678
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 904378672}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &905662074
 GameObject:
   m_ObjectHideFlags: 0
@@ -54586,6 +54674,7 @@ GameObject:
   - component: {fileID: 1509260198}
   - component: {fileID: 1509260201}
   - component: {fileID: 1509260200}
+  - component: {fileID: 1509260202}
   m_Layer: 0
   m_Name: GreenFire (1)
   m_TagString: Enemy
@@ -54682,6 +54771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &1509260201
 MonoBehaviour:
@@ -54696,6 +54786,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &1509260202
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509260196}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1509407715
 GameObject:
   m_ObjectHideFlags: 0
@@ -64102,6 +64212,7 @@ GameObject:
   - component: {fileID: 1787748066}
   - component: {fileID: 1787748069}
   - component: {fileID: 1787748068}
+  - component: {fileID: 1787748070}
   m_Layer: 0
   m_Name: GreenFire
   m_TagString: Enemy
@@ -64198,6 +64309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &1787748069
 MonoBehaviour:
@@ -64212,6 +64324,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 4
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &1787748070
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787748064}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1789187905
 GameObject:
   m_ObjectHideFlags: 0
@@ -66574,6 +66706,7 @@ GameObject:
   - component: {fileID: 1856934958}
   - component: {fileID: 1856934962}
   - component: {fileID: 1856934961}
+  - component: {fileID: 1856934963}
   m_Layer: 0
   m_Name: BlueSkull
   m_TagString: Enemy
@@ -66670,6 +66803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5245fa93edb00e4cb65e1ee31d678c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   levelToLoad: BattleScene4
 --- !u!114 &1856934962
 MonoBehaviour:
@@ -66684,6 +66818,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 5
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &1856934963
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1856934957}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1857578854
 GameObject:
   m_ObjectHideFlags: 0

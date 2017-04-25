@@ -39023,6 +39023,7 @@ GameObject:
   - component: {fileID: 1603479023}
   - component: {fileID: 1603479025}
   - component: {fileID: 1603479026}
+  - component: {fileID: 1603479027}
   m_Layer: 0
   m_Name: WildBoarBrown
   m_TagString: Enemy
@@ -39134,6 +39135,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 2
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &1603479027
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1603479020}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1603508870
 GameObject:
   m_ObjectHideFlags: 0
@@ -47630,6 +47651,7 @@ GameObject:
   - component: {fileID: 2001700121}
   - component: {fileID: 2001700123}
   - component: {fileID: 2001700124}
+  - component: {fileID: 2001700125}
   m_Layer: 0
   m_Name: BlueMonsterBook
   m_TagString: Enemy
@@ -47741,6 +47763,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 2
   heart: {fileID: 21300048, guid: 6ae5abad353d21b4faae37a40e875230, type: 3}
+--- !u!50 &2001700125
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001700118}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2002114273
 GameObject:
   m_ObjectHideFlags: 0
