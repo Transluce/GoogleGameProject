@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\UISceneManager.cs" />
     <Compile Include="Assets\Scripts\playerController2D.cs" />
     <Compile Include="Assets\Scripts\playerController_buttons.cs" />
+    <Compile Include="Assets\enemyHit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

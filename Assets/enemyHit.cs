@@ -1,24 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[System.Serializable]
 public class enemyHit : MonoBehaviour {
 
-	// Use this for initialization
+
+    // Use this for initialization
+    public static Animator enemyAnim;
 	void Start () {
-		
+        enemyAnim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+      
 	}
     void OnTriggerEnter2D(Collider2D col)
     {
         if(col.gameObject.tag=="Enemy")
         {
+            
             GameObject.FindGameObjectWithTag("Manager").GetComponent<BattleManager>().moveAttack = "0";
             gameObject.transform.position = GameObject.Find("fireballpos").transform.position;
+            Debug.Log("HitnaHit");
+            
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if(col.gameObject.tag =="Player")
+        {
+            GameObject.FindGameObjectWithTag("Manager").GetComponent<BattleManager>().enemymoveAttack = "0";
+            gameObject.transform.position = GameObject.Find("EnemyAttackpos").transform.position;
             Debug.Log("HitnaHit");
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
