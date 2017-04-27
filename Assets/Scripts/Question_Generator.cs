@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Question_Generator : MonoBehaviour {
 
     // Use this for initialization
-    public int a, b, c,d;
+    public int a, b, c, d, difficultyrange;
     string operatr;
     void Start() {
 
@@ -27,28 +27,28 @@ public class Question_Generator : MonoBehaviour {
         {
             case 1:
                 operatr = "+";
-                a = Random.Range(0, 10);
-                b = Random.Range(0, 10);
+                a = Random.Range(0, difficultyrange);
+                b = Random.Range(0, difficultyrange);
                 c = a + b;
                 equation = a.ToString() + operatr + b.ToString();
                 break;
             case 2:
                 operatr = "-";
-                a = Random.Range(0, 10);
+                a = Random.Range(0, difficultyrange);
                 b = Random.Range(0, a);
                 c = a - b;
                 equation = a.ToString() + operatr + b.ToString();
                 break;
             case 3:
                 operatr = "x";
-                a = Random.Range(0, 10);
+                a = Random.Range(0, difficultyrange);
                 b = Random.Range(0, 10);
                 c = a * b;
                 equation = a.ToString() + operatr + b.ToString();
                 break;
             case 4:
                 operatr = "/";
-                a = Random.Range(0, 10);
+                a = Random.Range(0, difficultyrange);
                 b = Random.Range(0, 10);
                 while ((a % b) != 0)
                 {

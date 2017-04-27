@@ -41,3 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerDefeated.unity
     guid: f57a030b182fcbe4ca76b68d68a85441
+  - enabled: 1
+    path: Assets/Scenes/GameFinished (2).unity
+    guid: 00000000000000000000000000000000

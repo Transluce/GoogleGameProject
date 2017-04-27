@@ -96,7 +96,8 @@ public class BattleManager : MonoBehaviour {
           
             enemy_list.GetComponent<DefeatedEnemies_list>().enemies[enemy_list.GetComponent<DefeatedEnemies_list>().numberotenemies] = enemy.name;
                 enemy_list.GetComponent<DefeatedEnemies_list>().numberotenemies++;
-                Vector3 position = playerstats.currentPos;
+            DefeatedEnemies_list.finalscore += playerscore;
+            Vector3 position = playerstats.currentPos;
                 player.transform.position = playerstats.currentPos - (new Vector3(1, 1, 0));
                 enemy.GetComponent<BoxCollider2D>().enabled = false;
                 enemy.GetComponent<ChangeSceneManager>().enabled = false;
@@ -104,7 +105,7 @@ public class BattleManager : MonoBehaviour {
            
                 SceneManager.LoadScene(stage);
                 
-                //Destroy(enemy);
+                Destroy(enemy);
                 Destroy(player);
                        
         }

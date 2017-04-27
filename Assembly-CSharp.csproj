@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C823E779-335D-3B0D-EE67-01EE431A0386}</ProjectGuid>
+    <ProjectGuid>{83BE2866-0A53-71D6-C680-423D67BBAD46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BossScript.cs" />
      <Compile Include="Assets\DefeatedEnemies_list.cs" />
+     <Compile Include="Assets\POrtal.cs" />
      <Compile Include="Assets\Scripts\AttackAnims.cs" />
      <Compile Include="Assets\Scripts\BattleManager.cs" />
      <Compile Include="Assets\Scripts\ButtonHandler.cs" />
@@ -65,6 +67,7 @@
      <Compile Include="Assets\Scripts\playerController2D.cs" />
      <Compile Include="Assets\Scripts\playerController_buttons.cs" />
      <Compile Include="Assets\enemyHit.cs" />
+     <Compile Include="Assets\playerSpawn.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -90,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{14247969-9746-78B9-777B-392913A2D888}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{6AC2CF05-8E6C-C1EA-8217-C5BA6DBDC67B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

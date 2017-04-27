@@ -30,6 +30,7 @@ public class ChangeSceneManager : MonoBehaviour {
             //collision.gameObject.GetComponent<Player_Stats>().save();
             // this.GetComponent<Enemy_stats>().save();
             // Debug.Log(collision.gameObject.GetComponent<Player_Stats>().currentPos);
+            //GameObject.Find("Defeated_enemies").GetComponent<DefeatedEnemies_list>().enemy_position = gameObject.transform.position;
             SceneManager.LoadScene(levelToLoad);
             this.gameObject.AddComponent<DoNotDestroyScript>();
             collision.gameObject.GetComponent<playerController_buttons>().direction = "stop";
@@ -38,6 +39,7 @@ public class ChangeSceneManager : MonoBehaviour {
         }
         if(this.gameObject.name=="Portal")
         {
+            
             Destroy(collision.gameObject);
         }
     }
