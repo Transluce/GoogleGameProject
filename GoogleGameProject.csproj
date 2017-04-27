@@ -84,7 +84,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BossScript.cs" />
     <Compile Include="Assets\DefeatedEnemies_list.cs" />
+    <Compile Include="Assets\POrtal.cs" />
     <Compile Include="Assets\Scripts\AttackAnims.cs" />
     <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Assets\Scripts\GetAnswer.cs" />
     <Compile Include="Assets\Scripts\Initialize.cs" />
     <Compile Include="Assets\Scripts\LoadEnemy.cs" />
+    <Compile Include="Assets\Scripts\PlayerPositioning.cs" />
     <Compile Include="Assets\Scripts\Player_Stats.cs" />
     <Compile Include="Assets\Scripts\PositionSave.cs" />
     <Compile Include="Assets\Scripts\Question_Generator.cs" />
@@ -103,6 +106,7 @@
     <Compile Include="Assets\Scripts\playerController2D.cs" />
     <Compile Include="Assets\Scripts\playerController_buttons.cs" />
     <Compile Include="Assets\enemyHit.cs" />
+    <Compile Include="Assets\playerSpawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

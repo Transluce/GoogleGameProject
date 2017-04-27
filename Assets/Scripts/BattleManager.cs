@@ -25,7 +25,7 @@ public class BattleManager : MonoBehaviour {
     public static int playerscore = 0;
 	// Use this for initialization
 	void Start () {
-       
+        
 
     }
 	

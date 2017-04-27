@@ -16,7 +16,7 @@ public class playerSpawn : MonoBehaviour {
         {
             //player.GetComponent<BoxCollider2D>().enabled = false;
             player.transform.position = enemylist.GetComponent<DefeatedEnemies_list>().enemy_position;
-            Time.timeScale = 0;
+            Time.timeScale = 1;
         }
         if(enemylist.GetComponent<DefeatedEnemies_list>().playerPositioned==false)
         {
