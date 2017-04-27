@@ -24,7 +24,7 @@ public class POrtal : MonoBehaviour {
             {
                 Destroy(col.gameObject);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                
+                //SceneManager.LoadScene("Stage5");
             }
 
             Debug.Log(number.Length);
